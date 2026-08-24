@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReWriteVU — AI Paraphrasing Tool for VU Students</title>
+<meta name="description" content="Rewrite your VU assignments, GDBs and reports in your own words instantly. Free daily rewrites, no signup required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">RW</span>
+      <span class="brand-name">ReWrite<span class="accent">VU</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#tool">Rewrite Tool</a>
+      <a href="#how">How it Works</a>
+      <a href="#premium">Go Premium</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-whatsapp" href="https://wa.me/923043888632" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<!-- ===== AD SLOT: TOP LEADERBOARD ===== -->
+<div class="ad-slot ad-top container">
+  <!-- Google AdSense leaderboard unit goes here once your AdSense account is approved -->
+  <span class="ad-placeholder">Ad space — 728×90</span>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>Rewrite Your VU Assignments <span class="accent">In Your Own Words</span></h1>
+    <p class="hero-sub">Paste your assignment, GDB or report text below. Our AI rewrites it clearly and naturally — free, no signup needed.</p>
+  </div>
+</section>
+
+<!-- ===== TOOL ===== -->
+<section id="tool" class="tool-section">
+  <div class="container tool-grid">
+
+    <div class="tool-card">
+      <div class="tool-toolbar">
+        <div class="mode-select">
+          <label for="mode">Mode</label>
+          <select id="mode">
+            <option value="standard">Standard</option>
+            <option value="academic">Academic / Formal</option>
+            <option value="simple">Simple &amp; Clear</option>
+            <option value="fluent">Fluency Boost</option>
+          </select>
+        </div>
+        <div class="usage-indicator">
+          <span id="usageText">0 / 1500 words used today</span>
+          <div class="usage-bar"><div id="usageFill" class="usage-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="tool-panes">
+        <div class="pane">
+          <div class="pane-head">
+            <span>Original Text</span>
+            <span id="inCount">0 words</span>
+          </div>
+          <textarea id="inputText" placeholder="Paste your assignment / GDB / report text here..."></textarea>
+        </div>
+        <div class="pane">
+          <div class="pane-head">
+            <span>Rewritten Text</span>
+            <span id="outCount">0 words</span>
+          </div>
+          <textarea id="outputText" placeholder="Your rewritten text will appear here..." readonly></textarea>
+        </div>
+      </div>
+
+      <div class="tool-actions">
+        <button id="rewriteBtn" class="btn btn-primary">Rewrite Text</button>
+        <button id="copyBtn" class="btn btn-outline">Copy Result</button>
+        <span id="statusMsg" class="status-msg"></span>
+      </div>
+    </div>
+
+    <!-- ===== AD SLOT: SIDEBAR ===== -->
+    <div class="ad-slot ad-sidebar">
+      <span class="ad-placeholder">Ad space<br>300×600</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== AD SLOT: IN-CONTENT ===== -->
+<div class="ad-slot ad-incontent container">
+  <span class="ad-placeholder">Ad space — 728×90</span>
+</div>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section id="how" class="how-section">
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-num">1</div>
+        <h3>Paste Your Text</h3>
+        <p>Copy your assignment, GDB or report paragraph into the box above.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">2</div>
+        <h3>Pick a Mode</h3>
+        <p>Choose Standard, Academic, Simple or Fluency Boost depending on your need.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">3</div>
+        <h3>Get Original Wording</h3>
+        <p>The AI rewrites your text in fresh wording while keeping the meaning intact.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">4</div>
+        <h3>Copy &amp; Submit</h3>
+        <p>Review the result, tweak anything you like, and copy it into your VU submission.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PREMIUM ===== -->
+<section id="premium" class="premium-section">
+  <div class="container premium-inner">
+    <div class="premium-text">
+      <h2>Need Unlimited Rewrites?</h2>
+      <p>Free plan gives you 1500 words/day. Go Premium for unlimited rewrites all month, no ads, no daily limit.</p>
+      <ul class="premium-list">
+        <li>✔ Unlimited word count</li>
+        <li>✔ No daily reset limit</li>
+        <li>✔ Ad-free tool experience</li>
+        <li>✔ Priority WhatsApp support</li>
+      </ul>
+      <div class="premium-price">Rs. 300 <span>/ month</span></div>
+      <a href="https://wa.me/923043888632?text=Assalam-o-Alaikum%2C%20I%20want%20to%20activate%20ReWriteVU%20Premium" target="_blank" rel="noopener" class="btn btn-primary">Get Premium via WhatsApp</a>
+      <p class="premium-note">Pay via JazzCash or Easypaisa, send the receipt on WhatsApp, and get your unlock code within a few hours.</p>
+    </div>
+    <div class="premium-unlock">
+      <h3>Already Purchased?</h3>
+      <p>Enter your unlock code below to remove today's limit.</p>
+      <input type="text" id="unlockCode" placeholder="Enter unlock code">
+      <button id="unlockBtn" class="btn btn-outline">Activate</button>
+      <span id="unlockMsg" class="status-msg"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="faq-section">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Is this tool free?</h3>
+      <p>Yes — every visitor gets 1500 words of rewriting per day at no cost. Premium removes that daily limit.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does it keep the original meaning?</h3>
+      <p>Yes. The AI is instructed to preserve your meaning while changing sentence structure and wording.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should I submit the rewritten text as-is?</h3>
+      <p>Always read it over and adjust it in your own voice before submitting — treat this as a writing aid, not a replacement for understanding your own assignment.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I get Premium?</h3>
+      <p>Tap "Get Premium via WhatsApp", send payment through JazzCash or Easypaisa, share the screenshot, and you'll receive an unlock code.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AD SLOT: BOTTOM ===== -->
+<div class="ad-slot ad-bottom container">
+  <span class="ad-placeholder">Ad space — 728×90</span>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <span class="brand-mark small">RW</span>
+      <span class="brand-name">ReWrite<span class="accent">VU</span></span>
+      <p>An AI writing companion for VU students. Not affiliated with Virtual University of Pakistan.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://wa.me/923043888632" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#faq">FAQ</a>
+      <a href="#premium">Premium</a>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; 2026 ReWriteVU. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="assets/js/supabase-config.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
